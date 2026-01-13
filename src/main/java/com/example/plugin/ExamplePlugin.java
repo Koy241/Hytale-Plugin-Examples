@@ -6,6 +6,7 @@ import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.example.plugin.commands.CameraCommand;
 import com.example.plugin.commands.ExampleCommand;
+import com.example.plugin.commands.SendCommand;
 import com.example.plugin.commands.TitleCommand;
 import com.example.plugin.listeners.PlayerChatListener;
 import com.example.plugin.listeners.PlayerReadyListener;
@@ -19,13 +20,20 @@ public class ExamplePlugin extends JavaPlugin {
 
     @Override
     protected void setup() {
-        // Commands
+        // ####### Commands ######## //
+        // Move camera
         this.getCommandRegistry().registerCommand(new CameraCommand());
+        // An example command
         this.getCommandRegistry().registerCommand(new ExampleCommand());
+        // Send player to another server
+        this.getCommandRegistry().registerCommand(new SendCommand());
+        // Display a title to all players
         this.getCommandRegistry().registerCommand(new TitleCommand());
 
-        // Events
+        // ######## Events ######## //
+        // Format chat messages
         this.getEventRegistry().registerGlobal(PlayerChatEvent.class, PlayerChatListener::onPlayerChat);
+        // Send welcome message
         this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, PlayerReadyListener::onPlayerReady);
     }
 }
