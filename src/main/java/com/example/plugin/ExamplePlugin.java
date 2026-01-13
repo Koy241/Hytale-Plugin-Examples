@@ -4,19 +4,33 @@ import com.hypixel.hytale.server.core.event.events.player.PlayerChatEvent;
 import com.hypixel.hytale.server.core.event.events.player.PlayerReadyEvent;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
+import com.hypixel.hytale.server.core.util.Config;
 import com.example.plugin.commands.CameraCommand;
 import com.example.plugin.commands.ExampleCommand;
 import com.example.plugin.commands.MsgCommand;
 import com.example.plugin.commands.SendCommand;
 import com.example.plugin.commands.TitleCommand;
+import com.example.plugin.config.ExampleConfig;
 import com.example.plugin.listeners.PlayerChatListener;
 import com.example.plugin.listeners.PlayerReadyListener;
 
 import javax.annotation.Nonnull;
 
 public class ExamplePlugin extends JavaPlugin {
+
+    // ####### Config ######## //
+    private final Config<ExampleConfig> config;
+
     public ExamplePlugin(@Nonnull JavaPluginInit init) {
         super(init);
+
+        // ####### Config ######## //
+        this.config = this.withConfig("ExamplePlugin", ExampleConfig.CODEC);
+    }
+
+    // ####### Config ######## //
+    public ExampleConfig getExampleConfig() {
+        return this.config.get();
     }
 
     @Override
@@ -39,4 +53,5 @@ public class ExamplePlugin extends JavaPlugin {
         // Send welcome message
         this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, PlayerReadyListener::onPlayerReady);
     }
+
 }
