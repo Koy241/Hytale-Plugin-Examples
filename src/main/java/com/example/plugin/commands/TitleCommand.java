@@ -5,6 +5,7 @@ import javax.annotation.Nonnull;
 import com.example.plugin.utils.ServerUtil;
 import com.hypixel.hytale.server.core.Message;
 import com.hypixel.hytale.server.core.command.system.CommandContext;
+import com.hypixel.hytale.server.core.command.system.arguments.system.DefaultArg;
 import com.hypixel.hytale.server.core.command.system.arguments.system.RequiredArg;
 import com.hypixel.hytale.server.core.command.system.arguments.types.ArgTypes;
 import com.hypixel.hytale.server.core.command.system.basecommands.CommandBase;
@@ -15,15 +16,15 @@ public class TitleCommand extends CommandBase {
     private final RequiredArg<String> titleArg;
 
     @Nonnull
-    private final RequiredArg<String> subtitleArg;
+    private final DefaultArg<String> subtitleArg;
 
     public TitleCommand() {
         super("example_title", "Show a title to all players", false);
 
         this.titleArg = this.withRequiredArg("title", "com.example.plugin.commands.title.arg.title",
                 ArgTypes.STRING);
-        this.subtitleArg = this.withRequiredArg("subtitle", "com.example.plugin.commands.title.arg.subtitle",
-                ArgTypes.STRING);
+        this.subtitleArg = this.withDefaultArg("subtitle", "com.example.plugin.commands.title.arg.subtitle",
+                ArgTypes.STRING, "", "com.example.plugin.commands.title.arg.subtitle.defaultValue");
     }
 
     @Override
